@@ -4,7 +4,7 @@ const port = 3000;
 const Router = require('./router')
 
 app.use('view engine','ejs')
-app.use(Router)
+app.use(Router);
 
 
 app.listen(3000,()=>{
